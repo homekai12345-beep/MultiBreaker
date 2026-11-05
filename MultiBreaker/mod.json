@@ -1,0 +1,69 @@
+{
+    "name": "MultiBreaker",
+    "author": "You",
+    "version": "1.0.0",
+    "description": "Two huge multiplier dice",
+    "dice": [
+        {
+            "ide": "mult48_die",
+            "rarity": 1,
+            "prio": 5,
+            "sprite": "sprites/mult48_die.png",
+            "faces": [
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "faces_desc": "[spr_dice_icon,0] x1e48",
+            "tag": [
+                "faces_even"
+            ],
+            "kw": [
+                "face"
+            ],
+            "effect": {
+                "type": "mult_all",
+                "value": 1000000000000000000000000000000000000000000000000
+            },
+            "title": "1e48 Die",
+            "description": "Gives a x1,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 (1e48) multiplier."
+        },
+        {
+            "ide": "multall61_die",
+            "rarity": 1,
+            "prio": 5,
+            "sprite": "sprites/multall61_die.png",
+            "faces": [
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "faces_desc": "[spr_dice_icon,0] x1e61",
+            "tag": [
+                "faces_even"
+            ],
+            "kw": [
+                "face"
+            ],
+            "effect": {
+                "type": "mult_all",
+                "value": 10000000000000000000000000000000000000000000000000000000000000
+            },
+            "title": "1e61 Die",
+            "description": "Multiplies all multipliers by 1e61."
+        }
+    ],
+    "rings": []
+}
